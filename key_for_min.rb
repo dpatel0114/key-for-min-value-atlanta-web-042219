@@ -5,3 +5,4 @@ def key_for_min_value(name_hash)
     name_hash.collect do |name, integer|
       integer
 end
+end
