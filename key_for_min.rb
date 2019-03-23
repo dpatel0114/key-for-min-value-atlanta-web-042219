@@ -4,6 +4,7 @@
 def key_for_min_value(name_hash)
   if name_hash == {}
     return nil
+  end
   number = 1000
   name = "pizza"
     name_hash.collect do |x,y|
